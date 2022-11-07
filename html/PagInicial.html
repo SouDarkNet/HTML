@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Cursos TI</title>
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+  </head>
+  <body style="background-color:lavender ;">
+    <header>
+      <!--Navbar-->
+      <nav class="navbar col-11 m-auto navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color:lavender;">Cursos TI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color:lavender;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quemsomos.html" target="_blank" style="color:lavender;">Quem Somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:lavender;">
+                  Cursos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li><a class="dropdown-item" href="#">HTML</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">PHP</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" style="color:aquamarine;">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <!--Carrosel-->
+      <div class="m-5">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/Iniciantes.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-weight:bold ;">Temos cursos para iniciantes</h5>
+              <p style="font-weight:bold ;">Você nao precisa de nenhum conhecimento brevio, aqui na TI cursos te ensinamos do inicio ao fim!</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/JAVA.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-weight:bolder ;">Curso de JavaScript completo</h5>
+              <p style="font-weight:bold ;">Inicie agora com o nosso curso de JavaScript desde a introdução ao avançado!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner-curso-html.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color:yellow ;">Curso de HTML basico ao avançado</h5>
+              <p style="color:yellow ;">Com o nosso curso de HTML você aprendera a desenvolver sites completos e reponsivo!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/curso_introducao-ao-php_2171.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-weight:bolder ;">Curso introdução ao PHP</h5>
+              <p style="font-weight:bold ;">O curso de PHP você aprendera o basico de php e ter uma noção basica!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Começo Do Card-->
+      <div class="m-3">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/curso_intro_javascript_2330.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight:bolder ;">Introdução ao JavaScript</h5>
+              <p class="card-text">Com o nosso curso de JavaScript você aprendera a introdução sobre a linguagem e ter uma noção basica de como usa-la, tambem aprendera criar objetos no front-end, Inicie Agora!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">imagem atualizada a 3 semanas</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/curso-html5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight:bolder ;">HTML do basico ao avançado</h5>
+              <p class="card-text">O nosso curso de HTML te ensinara o basico ao avançado, com ele você aprendera a criar paginas do mais basico ao avançado com CSS e Bootstrap5, aprendera como ficar pronto para o mercado de trabalho!!!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">imagem atualizada a 3 semanas</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/curso_o-que-e-php_2001.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight:bolder ;">Introdução ao PHP</h5>
+              <p class="card-text">O nosso curso de PHP tem como intenção te introduzir a uma das linguagens mais usada de tempos, com o PHP vc sera capaz de fazer o Back-end do seu site e muito mais!!!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">imagem atualizada a 3 semanas</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!--Fim dos card curso-->
+      
+      <!--cards informativos-->
+      <center><h1>Pra quem é o nosso cursos?</h1></center>
+      <br>
+      <div class="m-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Ini.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight:bolder ;">Iniciantes em tecnologia</h5>
+              <p class="card-text">Para você iniciantes que esta entusiado para entrar no mercado de trabalho!</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Saiba Mais!
+</button>
+
+<!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel" style="font-weight:bolder ;">Importante!</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Com nossas dicas e instruções você sera capaz de criar modelos e templates com bootstrap a nivel avaçado, ganhando destaque nas entrevistas de empregos e assim o tao sonhada vaga desejada
+                      </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>                    
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Atualizado há 5 semanas</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/jovem.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight:bolder ;">Profissionais Junior</h5>
+              <p class="card-text">Para você junior que ja esta na area e quer aperfeiçoar suas tecnicas!</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Saiba Mais!
+</button>
+
+<!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Atualizado há 5 semanas</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/pleno.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight:bolder ;">Profissionais da tecnologia</h5>
+              <p class="card-text">Para você profissional temos otimas dicas e ensinamentos que um profissional na area precisa ter.</p>
+          <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Saiba Mais!
+</button>
+
+<!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Atualizado há 5 semanas</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Fim dos cards informativos-->
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    </section>
+    <footer>
+      <div class="container-fluid bg-dark p-2">
+        <div class="row">
+          <div class="col-sm-12 text-white text-center">
+            <p class="mb-0">Desenvolvido por Kassio Venancio</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
